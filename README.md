@@ -1,12 +1,12 @@
-# 🍸 Bars.com Venue Scraper
+# Bars.com Venue Scraper
 
 This project automated the discovery and classification of alcohol-serving venues in U.S. cities using Google Search scraping. It was developed for **Bars.com**, a company that partners with upscale casual venues to deliver promotional offers powered by survey data and POS integrations.
 
-> 🔒 **Note:** Due to NDA restrictions, `.ipynb` notebooks and full datasets are not included in this repository.
+> **Note:** Due to NDA restrictions, `.ipynb` notebooks and full datasets are not included in this repository.
 
 ---
 
-## 🧠 Project Background
+## Project Background
 
 Bars.com needed a scalable method to identify suitable venues in target cities (e.g., Boulder, Dallas, Fort Worth). Manual venue outreach was inefficient, so I developed a Python-based scraping pipeline to:
 - Automate discovery via search queries (e.g., "restaurants near [city]")
@@ -16,7 +16,7 @@ Bars.com needed a scalable method to identify suitable venues in target cities (
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 - **Python** (Selenium, Pandas)
 - **Google Business Panel** scraping
@@ -26,7 +26,7 @@ Bars.com needed a scalable method to identify suitable venues in target cities (
 
 ---
 
-## 🔍 Key Features
+## Key Features
 
 - Automated search and scrape from Google’s business cards
 - Checked “Offerings” section to detect terms like “Alcohol,” “Cocktails,” “Hard liquor”
@@ -35,7 +35,7 @@ Bars.com needed a scalable method to identify suitable venues in target cities (
 
 ---
 
-## ⚙️ Project Outcomes
+## Project Outcomes
 
 - Dramatically reduced time to identify high-fit venues
 - Produced clean lists with venue name, address, and alcohol flag
@@ -44,7 +44,7 @@ Bars.com needed a scalable method to identify suitable venues in target cities (
 
 ---
 
-## 🧭 Future Work
+## Future Work
 
 - Add Google Maps API fallback for addresses or coordinates
 - Integrate pricing, ratings, and category filters
